@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="yellow">#FFFF00</color>
+    <color name="deep_yellow">#FFBB00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#ff3333</color>
+    <color name="transparent_black">#33000000</color>
+    <color name="grey">#757575</color>
+    <color name="transparent_white">#bbffffff</color>
+    <color name="text_black">#333333</color>
+    <color name="blue">#2196F3</color>
+    <color name="orange">#FF7D33</color>
+    <color name="carddivider">#EEEEEE</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

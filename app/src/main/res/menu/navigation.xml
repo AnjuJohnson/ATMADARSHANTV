@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        app:showAsAction="always|withText"
+        />
+
+    <item
+        android:id="@+id/different"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Shows"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/watch_live"
+        android:icon="@drawable/ic_play_circle_outline_black_24dp"
+        android:title="About Us"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/today_schedule"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="Schedule"
+        app:showAsAction="always|withText" />
+   <!-- <item
+        android:id="@+id/radio"
+        android:icon="@drawable/ic_radio_black_24dp"
+        android:title="Radio"
+        app:showAsAction="always|withText" />-->
+
+</menu>

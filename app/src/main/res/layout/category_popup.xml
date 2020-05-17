@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_52sdp"
+       >
+        <ImageView
+            android:id="@+id/ib_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_send"
+            android:background="@null"
+            android:layout_gravity="left"
+            android:paddingLeft="@dimen/_20sdp"
+         />
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "689547816169",
+    "firebase_url": "https://atmadarshantv.firebaseio.com",
+    "project_id": "atmadarshantv",
+    "storage_bucket": "atmadarshantv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689547816169:android:60fc0be5dea4e2cf",
+        "android_client_info": {
+          "package_name": "com.zinedroid.android.atmadarshantv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689547816169-fdb0io85gjtb7fkcqjtqbh9k7q3gn3pq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zinedroid.android.atmadarshantv",
+            "certificate_hash": "91c40301734ec9262be5d8d721c678f5d5c6dc57"
+          }
+        },
+        {
+          "client_id": "689547816169-f22bba9dqtmfvjdlp2gb932h8ug7v3pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpM-3-LvOobHzW77zTP61cfGyg004nxVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689547816169-f22bba9dqtmfvjdlp2gb932h8ug7v3pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

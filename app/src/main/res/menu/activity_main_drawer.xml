@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/watch_live"
+            android:icon="@mipmap/play"
+            android:title="About Us" />
+        <item
+            android:id="@+id/differentshows"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Different Shows" />
+        <item
+            android:id="@+id/today_schedule"
+            android:icon="@mipmap/clock"
+            android:title="Today's Schedule"
+           />
+        <item
+            android:id="@+id/livevideo"
+            android:icon="@mipmap/radio"
+            android:title="Live Video" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/daily_word"
+            android:icon="@drawable/holy_bible"
+            android:orderInCategory="5"
+            android:title="Daily Word" />
+        <item
+
+            android:id="@+id/fblike"
+            android:icon="@drawable/facebook_letter"
+            android:orderInCategory="6"
+            android:title="Facebook"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@mipmap/logout"
+            android:orderInCategory="11"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/prayerrequest"
+            android:icon="@mipmap/praying"
+            android:orderInCategory="7"
+            android:title="Prayer Request/Testimony Remainder" />
+     <!--   <item
+            android:id="@+id/donate"
+            android:icon="@mipmap/heart"
+            android:orderInCategory="10"
+            android:title="Donate" />-->
+        <item
+            android:id="@+id/our_publications"
+            android:icon="@mipmap/literature"
+            android:orderInCategory="9"
+            android:title="Our Publications" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:orderInCategory="8"
+            android:title="Favourite List" />
+        <item
+
+            android:id="@+id/profile"
+            android:icon="@mipmap/person"
+            android:orderInCategory="10"
+            android:title="My Profile"
+            />
+
+    </group>
+
+  <!--  <group>
+        <item
+            android:id="@+id/nav_about_us"
+            android:orderInCategory="11"
+            android:title=" "
+            app:actionLayout="@layout/button_subscribenow"
+            />
+
+    </group>-->
+
+
+</menu>

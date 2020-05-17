@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AtmadarshanTv</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="edittext_hint"><font size="15">Enter your EmailID</font></string>
+    <string name="pass"><font size="15">Password</font></string>
+    <string name="api_string">AIzaSyAy3HlVKmtRXdokjFoVckoZnM9ipc5koS4></string>
+    <string name="facebook_app_id">1870197323275213</string>
+    <string name="fb_login_protocol_scheme">fb1870197323275213</string>
+    <string name="intro_discription">Atmadarshan Tv is a channel to reach message of Christ to the whole world from Prerana Communications, Indore. Atmadarshan team intercedes relentlessly for the whole world. We believe in presenting the gospel in the most attractive way. Atmadarshan Tv is non- profit organisation with sole purpose of reaching the message of Christ to all. For we are sure, that this message can console and bring healing to many. Atmadarshan television offers you a variety programs to nourish you spirituality and to feel the joy of the Lord. It’s a place for you to get connected with Lord by the subjects of your interest, Spirituality, Gospel Music, Praise and Worship, Night Vigil, Philosophy, Theology, programs of Biblical Personalities, Holy Spirit, Mother Mary and many more encompass the programming of the channel.</string>
+
+    <string name="title_activity_live_video">LiveVideoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

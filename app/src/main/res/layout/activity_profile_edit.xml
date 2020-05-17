@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="?android:attr/actionBarSize">
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loginbg"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_170sdp"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:src="@drawable/noimage" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_60sdp"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:srcCompat="@android:drawable/ic_menu_camera"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editname"
+            android:drawableRight="@mipmap/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/grey"
+            android:drawablePadding="@dimen/_20sdp"
+            android:hint="Name"
+            android:text="John Kurian"
+            android:textColor="@color/grey"
+            android:paddingLeft="@dimen/_20sdp"
+            android:singleLine="true"
+            android:textSize="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/Phonenumber"
+            android:maxLength="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/grey"
+            android:drawablePadding="@dimen/_20sdp"
+            android:hint="Mobile Number"
+            android:textColor="@color/grey"
+            android:text="124344554"
+            android:paddingLeft="@dimen/_20sdp"
+            android:singleLine="true"
+            android:textSize="@dimen/_12sdp"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/grey"
+            android:drawablePadding="@dimen/_20sdp"
+            android:hint="Email ID"
+            android:text="john@gmail.com"
+            android:textSize="@dimen/_12sdp"
+            android:paddingLeft="@dimen/_20sdp"
+            android:singleLine="true"
+            android:textColor="@color/grey"/>
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:drawablePadding="@dimen/_20sdp"
+            android:hint="Place"
+            android:maxLines="1"
+            android:textColor="@color/grey"
+            android:text="Akshayanagar,Banglore"
+            android:paddingLeft="@dimen/_20sdp"
+            />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:drawablePadding="@dimen/_20sdp"
+            android:hint="Address"
+            android:textColor="@color/grey"
+            android:text="Akshayanagar,Banglore"
+            android:paddingLeft="@dimen/_20sdp"
+             />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/invisiblelayouttt"
+            android:visibility="gone">
+            <EditText
+                android:id="@+id/currentpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:backgroundTint="@color/grey"
+                android:textSize="@dimen/_12sdp"
+                android:drawablePadding="@dimen/_20sdp"
+                android:hint="Current password"
+                android:textColor="@color/grey"
+                android:text=""
+                android:paddingLeft="@dimen/_20sdp"
+                />
+            <EditText
+                android:id="@+id/newpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:backgroundTint="@color/grey"
+                android:textSize="@dimen/_12sdp"
+                android:drawablePadding="@dimen/_20sdp"
+                android:hint="New Password"
+                android:textColor="@color/grey"
+                android:text=""
+                android:paddingLeft="@dimen/_20sdp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/changepass"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundblack"
+                android:gravity="center|center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:text="Change Password"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/_10sdp">
+
+          <!--  <TextView
+                android:id="@+id/deactivate"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundblack"
+                android:gravity="center|center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:text="Deactivate Account"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_10sdp" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/submit"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundtextview"
+                android:gravity="center|center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:text="Save Details"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/_5sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

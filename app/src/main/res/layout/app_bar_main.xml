@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.HomeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_weight="0.1"
+                    android:id="@+id/menu_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_menu_black_24dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_gravity="center"
+                    />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:src="@drawable/atmadarshantv"
+                        android:foregroundGravity="center"/>
+
+                    <TextView
+                        android:id="@+id/mTitleTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="?attr/actionBarSize"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Atmadarshan"
+
+                        />
+
+
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_weight="0.5"
+                        android:id="@+id/refreshImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_refresh_black_24dp"
+                        android:gravity="right|center_vertical"
+                        android:layout_gravity="center"
+
+
+                        />
+                    <ImageView
+                        android:layout_weight="0.5"
+                        android:id="@+id/invisiblerefreshImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_refresh_black_24dp"
+                        android:gravity="right|center_vertical"
+                        android:layout_gravity="center"
+                        android:visibility="invisible"
+
+
+                        />
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".Activity.HomeActivity"
+        tools:showIn="@layout/app_bar_main" />
+    <!--   <include layout="@layout/content_main" />-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:backgroundTint="@color/orange"
+        android:paddingBottom="?android:attr/actionBarSize"
+        android:layout_marginBottom="?android:attr/actionBarSize"
+        app:srcCompat="@drawable/ic_category_icon"
+        android:tint="@color/white"/>
+
+</android.support.design.widget.CoordinatorLayout>

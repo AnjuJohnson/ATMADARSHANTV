@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardCornerRadius="3dp"
+        android:elevation="@dimen/_2sdp"
+        android:layout_margin="@dimen/_10sdp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+             <LinearLayout
+                 android:id="@+id/imagelayout"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1">
+
+
+
+                     <FrameLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent">
+
+                         <ImageView
+                             android:id="@+id/img_thumbnail"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:layout_centerHorizontal="true"
+                             android:scaleType="centerCrop"
+                             android:src="@drawable/youtubee" />
+
+                         <LinearLayout
+                             android:id="@+id/youtyout"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:layout_centerHorizontal="true"
+                             android:background="#40000000"
+                             android:orientation="horizontal"
+                             android:visibility="visible" />
+                         <ImageView
+                             android:layout_width="@dimen/_50sdp"
+                             android:layout_height="@dimen/_50sdp"
+                             android:layout_centerHorizontal="true"
+                             android:layout_gravity="center"
+                             android:src="@mipmap/player" />
+                         <com.github.ivbaranov.mfb.MaterialFavoriteButton
+                             android:id="@+id/favourite"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             app:mfb_type="heart"
+                             card_view:mfb_color="white"
+                             android:layout_gravity="bottom|right"/>
+
+                     </FrameLayout>
+
+             </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:padding="@dimen/_5sdp">
+
+                <LinearLayout
+                    android:id="@+id/show_card"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:text="Word of God For You,You can listen to this"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:maxLines="1"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/discription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:layout_margin="@dimen/_7sdp"
+                        android:maxLines="2"
+                        android:text="Word of God For You,You can listen to this"
+                        android:textSize="@dimen/_8sdp" />
+
+
+                </LinearLayout>
+
+                <!-- <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1.1"
+                     android:orientation="horizontal">
+
+                     <ImageView
+                         android:layout_width="wrap_content"
+                         android:layout_height="match_parent"
+                         android:src="@mipmap/atmadarshantv" />
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:orientation="vertical"
+                         android:gravity="center_vertical|center"
+                         android:layout_gravity="center"
+                         android:paddingRight="@dimen/_2sdp"
+
+                         >
+                         <TextView
+
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="Atmadarshan Tv"
+                             android:textSize="@dimen/_8sdp"
+                             android:gravity="center"
+                             android:layout_gravity="center"
+                             />
+
+
+                     </LinearLayout>
+
+                 </LinearLayout>-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
